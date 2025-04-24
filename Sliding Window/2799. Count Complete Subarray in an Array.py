@@ -3,6 +3,7 @@ class Solution:
         n = len(nums)
         m = len(set(nums))
         count = defaultdict(int)
+        
         i = 0
         j = 0
         result = 0
